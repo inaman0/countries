@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react'
 import './CountryDetails.css'
 import { Link, useLocation, useParams } from 'react-router-dom'
-import useTheme from '../hooks/useTheme'
-import CountryDetailShimmer from './CountryDetailShimmer'
+import useTheme from '../hooks/useTheme.js'
+import CountryDetailShimmer from './CountryDetailShimmer.jsx'
 
 const CountryDetail = () => {
   const [isDark] = useTheme()

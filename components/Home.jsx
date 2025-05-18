@@ -1,8 +1,8 @@
 import {  useState } from 'react'
-import SearchBar from './SearchBar'
-import SelectMenu from './SelectMenu'
-import CountriesList from './CountriesList'
-import useTheme from '../hooks/useTheme'
+import SearchBar from './Searchbar.jsx'
+import SelectMenu from './SelectMenu.jsx'
+import CountriesList from './CountriesList.jsx'
+import useTheme from '../hooks/useTheme.js'
 
 const Home = () => {
   const [query, setQuery] = useState('')

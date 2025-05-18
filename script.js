@@ -1,10 +1,10 @@
 import { createRoot } from 'react-dom/client'
-import App from './App'
+import App from './App.js'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
-import Contact from './components/Contact'
-import Home from './components/Home'
-import Error from './components/Error'
-import CountryDetail from './components/CountryDetails'
+import Contact from './components/Contact.jsx'
+import Home from './components/Home.jsx'
+import Error from './components/Error.jsx'
+import CountryDetail from './components/CountryDetails.jsx'
 
 const router = createBrowserRouter([
   {

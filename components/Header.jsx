@@ -1,4 +1,4 @@
-import useTheme from "../hooks/useTheme"
+import useTheme from "../hooks/useTheme.js"
 
 const Header = () => {
   const [isDark,setIsDark] = useTheme()
